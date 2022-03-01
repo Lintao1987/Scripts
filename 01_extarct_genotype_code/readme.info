@@ -1,0 +1,39 @@
+This file include three file and one python script.
+
+About
+============
+
+file1: individual_ID_informaton.txt, every sample ID and class.
+file2: example_genotype.txt, the all samples' genotype file.
+file3: the output results PIM_CER.snp.genotype and CER_BIG.snp.genotype (Test files).
+
+
+Using extract_sample.py
+============
+
+Using extract_sample.py, we can extract genotypes of PIM-CER or CER-BIG groups.
+We can just type command line just below to understand required arguments.
+
+python3 extract_sample.py -h
+
+usage: extract_sample.py [-h] [-input1 INPUT1] [-input2 INPUT2]
+                         [-group1 GROUP1] [-group2 GROUP2] [-o O]
+
+extracted the PIM-CER or CER-BIG genotype from the PIM-CER-BIG genotype file
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -input1 INPUT1  the individual_ID informaton file
+  -input2 INPUT2  the all samples genotype file
+  -group1 GROUP1  the name of group1
+  -group2 GROUP2  the name of group2
+  -o O            The output file name
+
+Operation
+============
+1) extract the PIM and CER groups' genotype
+python3 extract_sample.py -input1 individual_ID_informaton.txt -input2 example_genotype.txt -group1 PIM -group2 CER -o PIM_CER.snp.genotype
+
+2)extract the CER and BIG groups' genotype
+python3 extract_sample.py -input1 individual_ID_informaton.txt -input2 example_genotype.txt -group1 CER -group2 BIG -o CER_BIG.snp.genotype
+We can extract
