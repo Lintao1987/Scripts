@@ -1,0 +1,36 @@
+###example
+This folder include one example file and one python script
+
+About
+============
+
+file: SL2.40ch01.txt 
+script: sliding_windows.py
+
+Using sliding_windows.py
+============
+
+#Using sliding_windows.py, we can run sliding windows analysis
+
+python3 sliding_windows.py -h
+usage: sliding_windows.py [-h] [-input INPUT] [-name NAME] [-len LEN]
+                          [-win WIN] [-sliding SLIDING] [-o O]
+
+calculate the index with a sliding window for per chomsome
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -input INPUT      the name file
+  -name NAME        the index name file
+  -len LEN          thr chrsome length
+  -win WIN          the window size
+  -sliding SLIDING  the sliding window size
+  -o O              The output file name
+####parameter####
+#chromsome length:30219870
+#window length:100000 bp
+#sliding window:10000 bp 
+
+Operation
+============
+python3 sliding_windows.py -input SL2.40ch01.txt -name SL2.40ch01.txt -len 30219870 -win 100000 -sliding 10000 -o sliding_window_SL2.40ch01.txt
