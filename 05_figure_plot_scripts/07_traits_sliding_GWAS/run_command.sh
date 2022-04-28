@@ -1,0 +1,3 @@
+#/usr/bin/bash
+
+Rscript EigenGWAS_GWAS_sliding_window_manhattan_color.R PIM_CER_SlFM0600_sliding_window_100_10_SL2.40ch01_12.txt EigenGWAS_GWAS_threshold_line.csv PIM_CER_EigenGWAS_SlFM0600_GWAS_sliding_window_manhattan.pdf

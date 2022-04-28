@@ -1,0 +1,3 @@
+#/usr/bin/bash
+
+Rscript GWAS_fraction_manhattan_sweeps_methylsalicylate.R PIM_CER_pheno_sliding_window_100_10_SL2.40ch01_12.txt PIM_CER_chr9_methylsalicylate.txt GWAS_fraction_manhattan_sweeps_methylsalicylate.pdf

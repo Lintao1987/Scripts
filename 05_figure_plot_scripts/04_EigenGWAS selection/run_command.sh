@@ -1,0 +1,4 @@
+#!usr/bin/bash
+
+
+Rscript EigenGWAS_sliding_window_manhattan_line.R PIM_CER_pc1_sliding_window_100_10_SL2.40ch01_12.txt pi_PIM_CER_sweep_regions.txt PIM_CER_LD0.2_pc1_sliding_window_100_10_SL2.40ch01_12_Eigen_pi.pdf

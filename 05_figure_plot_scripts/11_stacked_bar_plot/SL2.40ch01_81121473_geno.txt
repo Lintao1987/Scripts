@@ -1,0 +1,10 @@
+class genotype value
+PIM AA 31
+PIM GA 6
+PIM GG 13
+CER AA 5
+CER GA 4
+CER GG 94
+BIG AA 0
+BIG GA 2
+BIG GG 144
